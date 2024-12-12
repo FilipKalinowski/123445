@@ -1,0 +1,6 @@
+Program czyta 2 liczby całkowite a i b, a następnie wyświetla wszystkie liczby n z zakresu a ≤ n ≤ b, które dzielą się przez sumę swoich cyfr. Takimi liczbami są np. 12, 45 albo 156. Dodatkowo należy podać ile takich liczb znaleziono w przedziale [a, b]. Należy także wykluczyć przypadki trywialne, gdy suma cyfr wynosi 1, np. 10, 100 itp.
+
+Napisać program, który dla zadanej kwoty mniejszej niż 10 zł, podaje jak wypłacić ją używając najmniejszej liczby monet. Np. 8,45 zł = 5 zł + 2 zł + 1 zł + 20 gr + 20 gr + 5 gr.
+
+Napisać program wykonujący dodawanie ułamków w postaci wymiernej, np. 2/3 + 1/4 = 11/12. Wynik powinien być w uproszczonej postaci, jeśli to możliwe. Realizacja: czytamy 2 pary liczb całkowitych p i q oraz r i s. Zwracamy jako wynik licznik m i mianownik n uproszczonego ułamka m/n = p/q + r/s. Wykorzystać w tym zadaniu funkcje NWP i NWW z zajęć. Program powinien powtarzać w pętli zaproszenie do wpisania kolejnej pary ułamków.
+
